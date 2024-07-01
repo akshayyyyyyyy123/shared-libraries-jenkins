@@ -1,3 +1,3 @@
 def call() {
-  echo 'Hello from Jenkins Shared Libraries!!"
+  sh 'echo Hi From DevOps Team'
 }
