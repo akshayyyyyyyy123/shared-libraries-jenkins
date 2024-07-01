@@ -1,20 +1,20 @@
 Structure of Shared Libraries
 
 PROJECT ROOT
-+- src/
-|   +- org/
-|       +- yourorg/
-|           +- TimeUtils.groovy
-+- vars/
-|   +- helloWorld.groovy
-+- resources/
-|   +- exampleResource.txt
-+- test/
-|   +- org/
-|       +- yourorg/
-|           +- TimeUtilsTest.groovy
-+- README.md
-+- build.gradle (or pom.xml if using Maven)
+        +- src/
+        |   +- org/
+        |       +- yourorg/
+        |           +- TimeUtils.groovy
+        +- vars/
+        |   +- helloWorld.groovy
+        +- resources/
+        |   +- exampleResource.txt
+        +- test/
+        |   +- org/
+        |       +- yourorg/
+        |           +- TimeUtilsTest.groovy
+        +- README.md
+        +- build.gradle (or pom.xml if using Maven)
 
 src, vars, resources, test are the main components in the shared libraries.
 
