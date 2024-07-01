@@ -1,5 +1,3 @@
-def akshay(name, role) {
-  echo 'Welcome to MV ${name}!!'
-  echo 'Nice to meet you!!'
-  echo 'Role - ${role}'
+def fun(String name, String title) {
+    echo "Welcome, ${name}, your title is ${title}"
 }
